@@ -1,26 +1,244 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/fonts/BebasNeue-Regular.eot");
+    src: url("/fonts/BebasNeue-Regular.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/BebasNeue-Regular.woff2") format("woff2"),
+        url("/fonts/BebasNeue-Regular.woff") format("woff"),
+        url("/fonts/BebasNeue-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-BoldItalic.eot");
+    src: url("/fonts/Montserrat-BoldItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-BoldItalic.woff2") format("woff2"),
+        url("/fonts/Montserrat-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-ExtraBoldItalic.eot");
+    src: url("/fonts/Montserrat-ExtraBoldItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"),
+        url("/fonts/Montserrat-ExtraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-SemiBoldItalic.eot");
+    src: url("/fonts/Montserrat-SemiBoldItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-SemiBoldItalic.woff2") format("woff2"),
+        url("/fonts/Montserrat-SemiBoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-BlackItalic.eot");
+    src: url("/fonts/Montserrat-BlackItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-BlackItalic.woff2") format("woff2"),
+        url("/fonts/Montserrat-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Black.eot");
+    src: url("/fonts/Montserrat-Black.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Montserrat-Black.woff2") format("woff2"),
+        url("/fonts/Montserrat-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Italic.eot");
+    src: url("/fonts/Montserrat-Italic.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Montserrat-Italic.woff2") format("woff2"),
+        url("/fonts/Montserrat-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-LightItalic.eot");
+    src: url("/fonts/Montserrat-LightItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-LightItalic.woff2") format("woff2"),
+        url("/fonts/Montserrat-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-MediumItalic.eot");
+    src: url("/fonts/Montserrat-MediumItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-MediumItalic.woff2") format("woff2"),
+        url("/fonts/Montserrat-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-ExtraLightItalic.eot");
+    src: url("/fonts/Montserrat-ExtraLightItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-ExtraLightItalic.woff2") format("woff2"),
+        url("/fonts/Montserrat-ExtraLightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-ThinItalic.eot");
+    src: url("/fonts/Montserrat-ThinItalic.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-ThinItalic.woff2") format("woff2"),
+        url("/fonts/Montserrat-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Medium.eot");
+    src: url("/fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Montserrat-Medium.woff2") format("woff2"),
+        url("/fonts/Montserrat-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-SemiBold.eot");
+    src: url("/fonts/Montserrat-SemiBold.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-SemiBold.woff2") format("woff2"),
+        url("/fonts/Montserrat-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-ExtraBold.eot");
+    src: url("/fonts/Montserrat-ExtraBold.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+        url("/fonts/Montserrat-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Bold.eot");
+    src: url("/fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Montserrat-Bold.woff2") format("woff2"),
+        url("/fonts/Montserrat-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Regular.eot");
+    src: url("/fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Montserrat-Regular.woff2") format("woff2"),
+        url("/fonts/Montserrat-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Light.eot");
+    src: url("/fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Montserrat-Light.woff2") format("woff2"),
+        url("/fonts/Montserrat-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-ExtraLight.eot");
+    src: url("/fonts/Montserrat-ExtraLight.eot?#iefix")
+            format("embedded-opentype"),
+        url("/fonts/Montserrat-ExtraLight.woff2") format("woff2"),
+        url("/fonts/Montserrat-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Thin.eot");
+    src: url("/fonts/Montserrat-Thin.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Montserrat-Thin.woff2") format("woff2"),
+        url("/fonts/Montserrat-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Montserrat, Sans-Serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: none;
 }

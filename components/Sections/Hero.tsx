@@ -93,7 +93,7 @@ const Hero = () => {
                         style={{
                             x,
                             // y,
-                            // scale,
+                            scale,
                             zIndex,
                             backgroundImage: `url(${backPic[index].url}), linear-gradient(90deg, black, transparent 70%)`,
                             backgroundPosition: `${backPic[index].pos}`,
@@ -103,7 +103,7 @@ const Hero = () => {
                         style={{
                             x: x2,
                             // y,
-                            // scale,
+                            scale,
                             zIndex,
                             backgroundImage: `url(${backPic[index].url}), linear-gradient(90deg, black, transparent 70%)`,
                             backgroundPosition: `${backPic[index].pos}`,
